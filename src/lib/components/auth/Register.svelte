@@ -2,7 +2,7 @@
 	export let error: string | undefined;
 </script>
 
-<div class="flex min-h-[100dvh] w-full items-center justify-center bg-gray-100 px-4 py-12 dark:bg-gray-950">
+<div class="flex min-h-[100dvh] w-full items-center justify-center px-4 py-12 bg-gray-100  dark:bg-gray-950">
     {#if error}
 		<p class="text-center text-sm text-red-500">{error}</p>
 	{/if}
@@ -74,7 +74,7 @@
         <div>
           <button
             type="submit"
-            class="flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-500 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-950"
+            class="flex w-full justify-center py-2 px-4 text-sm font-medium rounded-md border border-transparent bg-indigo-600  text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-500 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-950"
           >
             Sign up
           </button>
