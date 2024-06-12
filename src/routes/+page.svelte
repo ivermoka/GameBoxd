@@ -1,3 +1,21 @@
+<script lang="ts">
+  import { onMount } from 'svelte';
+  import type { ActionData } from './$types';
+  
+  export let form: ActionData;
+
+  onMount(() => {
+    try {
+      if (form) {
+        console.log(form);
+      } else {
+        console.error("Form data is null or undefined.");
+      }
+    } catch (error) {
+      console.error("An error occurred:", error);
+    }
+  });
+</script>
 
   <div class="relative h-screen w-full bg-gray-100  dark:bg-gray-950">
     <img src="/placeholder.svg" alt="Game Review" class="absolute top-0 left-0 h-full w-full object-cover" width="1401" height="768" style="aspect-ratio: 1401 / 768; object-fit: cover;"/>

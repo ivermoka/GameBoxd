@@ -1,10 +1,8 @@
 <header class="absolute top-0 left-0 right-0 z-10 flex items-center justify-between px-6 py-4 backdrop-blur-md">
     <div class="flex items-center space-x-4">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-white">
-        <rect width="18" height="18" x="3" y="3" rx="2"></rect>
-        <circle cx="12" cy="12" r="1"></circle>
-      </svg>
-      <h1 class="text-2xl font-bold text-white">GameBoxd</h1>
+      <a href="/">
+        <h1 class="text-2xl font-bold text-white">GameBoxd</h1>
+      </a>
     </div>
     <nav class="flex items-center space-x-10">
       <a class="text-base font-medium text-white hover:text-opacity-70" type="button" id="radix-:r2:" aria-haspopup="menu" aria-expanded="false" data-state="closed" href="#">
